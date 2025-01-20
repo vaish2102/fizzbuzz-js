@@ -6,7 +6,13 @@ function fizzbuzz() {
     console.log('Welcome to FizzBuzz!');
     console.log('Hello World');
     for(let i = 0 ; i<100;i++){
-        console.log(i+1);
+        if( (i+1) %3 == 0) {
+            console.log("Fizz");
+        }
+        else{
+            console.log(i+1);
+        }
+        
     }
 
     // Put your code here...
